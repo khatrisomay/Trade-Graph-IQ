@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: #e0e0e0; Grey background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+  background-image: url('https://wallpapercave.com/wp/wp9223603.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-color: black;
+}
+
+
+.container {
+    background-color :#ffcccc; 
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    max-width: 90%;
+    text-align: center;
+    transition: transform 0.3s ease;
+    background-image: url('https://wallpaperaccess.com/full/6301904.jpg '); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  box-shadow: black 10px;
+}
+
+.container:hover {
+    transform: scale(1.01);
+}
+
+h1 {
+    color:black; /* White text for better contrast */
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    margin-top: 75px;
+    position: relative;
+}
+
+input, button {
+    margin-top: 15px;
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: 0.3s border-color;
+}
+
+input:focus, button:focus {
+    outline: none;
+    border-color: #ff9999; /* Light red focus border */
+}
+
+button {
+    background-color: #ff1a1a; /* Darker red button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: green; /* Darker red on hover */
+}
+
+#train-result, #predict-result {
+    margin-top: 20px;
+    color: white;
+    font-size: 17px;
+}
+
+#graph-container {
+    margin-top: 30px;
+}
